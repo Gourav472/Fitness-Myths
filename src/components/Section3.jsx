@@ -9,7 +9,7 @@ const Section3 = () => {
             <section className='bg_black section3-py position-relative '>
                 <Container className=' position-relative z-1 max-w-1147 position-relative  z-1 '>
                     <Row>
-                        <div className="col-12 justify-content-center d-flex col-lg-6">
+                        <div className="col-12 justify-content-center d-flex col-lg-6" data-aos="fade-right">
                             <div className=' position-relative'>
                                 <img className=' w-100 max-530' src={Laptop} alt="laptop-image" />
                                 <div className='shadow-2   position-absolute '>
@@ -17,7 +17,7 @@ const Section3 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 mt-5  justify-content-center col-lg-6 d-flex align-items-center justify-content-lg-end">
+                        <div className="col-12 mt-5  justify-content-center col-lg-6 d-flex align-items-center justify-content-lg-end" data-aos="fade-left">
                             <div className=' d-flex flex-column'>
                                 <h2 className=' text-capitalize mb-0 white eurostile fw-700 fs-2xl lh-37 max-w-522 text-center text-lg-start '>Let me know where <span className=' yellow'>you want me to send it</span></h2>
                                 <div className=' d-flex flex-column align-items-center align-items-lg-start  gap-13 py-input'>

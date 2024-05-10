@@ -11,7 +11,7 @@ const Section5 = () => {
             <section className=' bg_black position-relative'>
                 <Container className=' max-w-1203 position-relative z-1'>
                     <Row className='py-section5'>
-                        <div className="col-12 justify-content-center justify-content-lg-start  col-lg-6 d-flex">
+                        <div className="col-12 justify-content-center justify-content-lg-start  col-lg-6 d-flex" data-aos="fade-down-right">
                             <div className=' position-relative'>
                                 <img className=' w-100 max-w-539' src={image1} alt="man-image" />
                                 <div className='circle-image position-absolute w-100 '>
@@ -19,7 +19,7 @@ const Section5 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 justify-content-center justify-content-lg-start mt-5 mt-lg-0 col-lg-6 d-flex align-items-lg-end justify-content-lg-end  ">
+                        <div className="col-12 justify-content-center justify-content-lg-start mt-5 mt-lg-0 col-lg-6 d-flex align-items-lg-end justify-content-lg-end  " data-aos="fade-down-left">
                             <div className=' d-flex flex-column'>
                                 <h2 className=' mb-0 white eurostile fw-700 lh-37 fs-2xl text-center text-lg-start '>About The <span className='yellow'>Author</span></h2>
                                 <p className=' mb-0 white manrope fw-400 fs-lg lh-28 max-w-520 pt-14 text-center text-lg-start'>Francesco is a Pro fitness coach currently working as head of Sport Science for Toronto FC Academy. He is a registered nutritionist, certified strength and conditioning specialist, holds a Master’s in exercise science and is a national level soccer coach.</p>
