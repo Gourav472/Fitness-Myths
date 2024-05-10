@@ -11,10 +11,10 @@ const Footer = () => {
                         <h2 className=' mb-0 white eurostile fw-700 lh-33 fs-xl' data-aos="fade-up">Hypervive</h2>
                         <p className=' mb-0 white manrope fw-400 lh-23 fs-sm pt-19' data-aos="fade-up">Connect with us on social media</p>
                         <div className=' d-flex align-items-center py-logo gap-10' data-aos="fade-up">
-                            <div className=' yellow-circle d-flex justify-content-center  align-items-center '>
+                            <div className=' yellow-circle cp d-flex justify-content-center  align-items-center '>
                                 <a className=' pb-1 ' href="https://www.tiktok.com/" target='_blank'><img src={Tiktok} alt="logo" /></a>
                             </div>
-                            <div className=' yellow-circle d-flex justify-content-center  align-items-center '>
+                            <div className=' yellow-circle cp d-flex justify-content-center  align-items-center '>
                                 <a className=' pb-1 ' href="https://www.instagram.com/" target='_blank'><img src={Instagram} alt="logo-2" /></a>
                             </div>
                         </div>
